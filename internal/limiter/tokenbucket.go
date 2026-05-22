@@ -29,7 +29,7 @@ func NewTokenBucket(rdb *redis.Client, cfg *config.Config, luaScript string) *To
 // Allow runs the token bucket Lua script atomically against Redis.
 func (tb *TokenBucket) Allow(ctx context.Context, userID string) (bool, error) {
 	key := fmt.Sprintf("rl:tb:%s", userID)
-	now := time.Now().Unix()
+	now := time.Now().UnixMilli()
 
 	// ttl: time to refill an empty bucket from zero, plus a safety buffer
 	ttl := int64(float64(tb.cfg.MaxTokens)/tb.cfg.RefillRate) + 60

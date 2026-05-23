@@ -19,7 +19,7 @@
 
 ---
 
-## about
+## About
 
 lightweight API gateway in pure Go that enforces **per-user rate limits globally** across any number of horizontally scaled replicas. all throttling state lives in Redis, mutated through atomic Lua scripts so there's no race conditions, no double-counting, no inter-process coordination needed.
 

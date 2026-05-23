@@ -27,6 +27,12 @@ two pluggable algorithms ship out of the box: **Token Bucket** for smooth burst 
 
 ---
 
+## Architecture
+
+![Architecture Diagram](./assets/architecture.png)
+
+---
+
 ## Features
 
 ### JWT Auth

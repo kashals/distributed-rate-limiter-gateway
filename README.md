@@ -29,7 +29,7 @@ two pluggable algorithms ship out of the box: **Token Bucket** for smooth burst 
 
 ## Architecture
 
-![Architecture Diagram](./assets/architecture.png)
+![Architecture Diagram](./assets/project_architecture.png)
 
 ---
 
@@ -231,6 +231,8 @@ Backend Service
 
 ```
 distributed-rate-limiter-gateway/
+├── assets/
+│   └── architecture.png      # architecture diagram
 ├── cmd/
 │   ├── gateway/
 │   │   └── main.go           # entry point, wires config, Redis, limiter, proxy, server

@@ -1,0 +1,32 @@
+# Local interview & guide notes
+gateway_run_and_interview_guide.txt
+
+# Compiled Go Binaries (executable files)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+gateway
+echoserver
+gentoken
+
+# OS generated files (windows junk)
+Thumbs.db
+db.db
+Desktop.ini
+.DS_Store
+
+# IDE configurations
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Environment secrets (js in case)
+.env
+.env.local

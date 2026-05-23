@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kashfmh/distributed-rate-limiter-gateway/internal/config"
+	"github.com/kashals/distributed-rate-limiter-gateway/internal/config"
 	"github.com/redis/go-redis/v9"
 )
 

@@ -93,7 +93,7 @@ two pluggable algorithms ship out of the box: **Token Bucket** for smooth burst 
 ## Installation
 
 ```bash
-git clone https://github.com/kashfmh/distributed-rate-limiter-gateway.git
+git clone https://github.com/kashals/distributed-rate-limiter-gateway.git
 cd distributed-rate-limiter-gateway
 go mod download
 ```

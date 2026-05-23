@@ -1,4 +1,4 @@
-module github.com/kashfmh/distributed-rate-limiter-gateway
+module github.com/kashals/distributed-rate-limiter-gateway
 
 go 1.24
 

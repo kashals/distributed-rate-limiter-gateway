@@ -10,10 +10,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/kashfmh/distributed-rate-limiter-gateway/internal/config"
-	"github.com/kashfmh/distributed-rate-limiter-gateway/internal/gateway"
-	"github.com/kashfmh/distributed-rate-limiter-gateway/internal/limiter"
-	"github.com/kashfmh/distributed-rate-limiter-gateway/internal/storage"
+	"github.com/kashals/distributed-rate-limiter-gateway/internal/config"
+	"github.com/kashals/distributed-rate-limiter-gateway/internal/gateway"
+	"github.com/kashals/distributed-rate-limiter-gateway/internal/limiter"
+	"github.com/kashals/distributed-rate-limiter-gateway/internal/storage"
 )
 
 func main() {

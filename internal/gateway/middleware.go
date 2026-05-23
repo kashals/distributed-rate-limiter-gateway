@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/kashfmh/distributed-rate-limiter-gateway/internal/config"
-	"github.com/kashfmh/distributed-rate-limiter-gateway/internal/limiter"
+	"github.com/kashals/distributed-rate-limiter-gateway/internal/config"
+	"github.com/kashals/distributed-rate-limiter-gateway/internal/limiter"
 )
 
 // ctxKey is a private type to prevent context key collisions.
